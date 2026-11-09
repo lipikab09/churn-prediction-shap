@@ -1,0 +1,29 @@
+{
+  "threshold": 0.11,
+  "assumptions": {
+    "retention_cost": 25.0,
+    "offer_success_rate": 0.25,
+    "expected_months": 12
+  },
+  "best_params": {
+    "n_estimators": 392,
+    "learning_rate": 0.04479766885601893,
+    "num_leaves": 26,
+    "max_depth": 3,
+    "min_child_samples": 52,
+    "reg_alpha": 8.175024674582485,
+    "reg_lambda": 1.9154938273836684,
+    "subsample": 0.8290054140313299,
+    "colsample_bytree": 0.5146697363663798,
+    "subsample_freq": 1
+  },
+  "cv_pr_auc": 0.6743329759898493,
+  "val": {
+    "brier_raw": 0.13621240141229457,
+    "brier_calibrated": 0.13545680476014826,
+    "profit_best": 59018.899999999994,
+    "profit_at_0_5": 40902.90000000001,
+    "profit_contact_all": 49839.70000000001,
+    "uplift_vs_0_5_pct": 44.290258147955235
+  }
+}

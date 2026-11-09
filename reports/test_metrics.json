@@ -1,0 +1,73 @@
+{
+  "threshold": 0.11,
+  "always_no_accuracy": 0.7345635202271115,
+  "pr_auc": 0.6638581825222256,
+  "roc_auc": 0.848313053811775,
+  "recall": 0.93048128342246,
+  "precision": 0.41626794258373206,
+  "f1": 0.5752066115702479,
+  "brier": 0.13483434162403712,
+  "confusion": {
+    "tn": 547,
+    "fp": 488,
+    "fn": 26,
+    "tp": 348
+  },
+  "profit_at_optimal": 55509.25,
+  "profit_at_0_5": 37478.85,
+  "profit_contact_all": 46419.7,
+  "top20pct_captures_churners": 0.49732620320855614,
+  "uplift_vs_0_5_pct": 48.10819969129256,
+  "fairness": {
+    "gender": {
+      "by_group": {
+        "recall": {
+          "Female": 0.9326,
+          "Male": 0.9282
+        },
+        "precision": {
+          "Female": 0.439,
+          "Male": 0.3944
+        },
+        "selection_rate": {
+          "Female": 0.5968,
+          "Male": 0.59
+        },
+        "n": {
+          "Female": 687.0,
+          "Male": 722.0
+        }
+      },
+      "gaps": {
+        "recall": 0.0045,
+        "precision": 0.0447,
+        "selection_rate": 0.0068
+      }
+    },
+    "SeniorCitizen": {
+      "by_group": {
+        "recall": {
+          "No": 0.913,
+          "Yes": 0.9796
+        },
+        "precision": {
+          "No": 0.3847,
+          "Yes": 0.5304
+        },
+        "selection_rate": {
+          "No": 0.5518,
+          "Yes": 0.8153
+        },
+        "n": {
+          "No": 1187.0,
+          "Yes": 222.0
+        }
+      },
+      "gaps": {
+        "recall": 0.0665,
+        "precision": 0.1457,
+        "selection_rate": 0.2635
+      }
+    }
+  }
+}

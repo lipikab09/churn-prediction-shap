@@ -1,0 +1,3 @@
+cluster,n,actual_churn_rate,mean_proba,tenure,MonthlyCharges,num_services,charge_delta,share_month_to_month,share_fiber,share_echeck,top_drivers,archetype,suggested_intervention
+0,720,0.45,0.452,17.064,68.283,1.539,9.972,1.0,0.585,0.499,"Contract_Month_to_month, tenure, Contract_Two_year, TotalCharges",New month-to-month fiber customers paying a lot,Discounted 1-2 year contract + service-quality check
+1,116,0.207,0.198,44.991,94.544,3.647,3.233,0.0,0.862,0.543,"MonthlyCharges, InternetService_Fiber_optic, avg_monthly_charge, Contract_Two_year",Long-tenure customers with rising bills,Loyalty price lock / bill review
